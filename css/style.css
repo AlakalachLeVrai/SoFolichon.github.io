@@ -2,36 +2,46 @@
     margin-bottom: 0;
 }
 
-
-.jumbotronbg {
+.jumbotron {
 	background-image: url("../img/bgjumbotron2.jpg");
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: cover;
-
-	
 	height: 375px;
-	margin: -5px -10px -10px -5px;
-	/*display: block;*/
 }
 
-.jumbotron {
-	background-color: transparent;
-	position: relative;
-	left: 0;
-	right: 0;
-	margin-bottom: 50px;
-	z-index: 9999;
-}
 .jumbotron h1, .jumbotron p {
 	color: #fff;
 }
 
-.jbbgbox {
-	overflow: hidden;
-	position: absolute;
-	left: 0;
-	right: 0;
-	z-index: 1;
-	height: 361px;
+#todoblog {
+	color: #9d9d9d;
+}
+
+#todoblog+.tooltip {
+  	left: -68px;
+  	width: 200px;
+}
+
+/* Sticky footer styles
+-------------------------------------------------- */
+html {
+  position: relative;
+  min-height: 100%;
+}
+body {
+  /* Margin bottom by footer height */
+  margin-bottom: 60px;
+}
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 60px;
+  background-color: #f5f5f5;
+}
+
+.container .text-muted {
+  margin: 20px 0;
 }
